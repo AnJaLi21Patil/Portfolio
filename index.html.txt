@@ -120,14 +120,8 @@ button:hover {
                 <h3>Great Learning Certification</h3>
                 <p>Certified in HTML, CSS, and JavaScript.</p>
             </div>
-    
-
-
-  
-        </div>
+     </div>
     </section>
-
-
 
 <section id="certifications">
         <h2>Certifications</h2>
@@ -136,22 +130,9 @@ button:hover {
                 <h3>Karmaveer Bhaurao Patil Collage,Urun Islmapure</h3>
                 <p>Object oriented Analysis and Design.</p>
             </div>
-    
 
-
-  
         </div>
     </section>
-
-
-
-
-
-
-
-
-
-
 
     <section id="contact">
         <h2>Contact Information</h2>
