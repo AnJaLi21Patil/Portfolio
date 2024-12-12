@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anjali Patil - Web Developer and Frontend Developer</title>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.project-grid, .certification-grid, .contact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.project, .certification, .contact {
+    background-color: #f7f7f7;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Anjali Patil</h1>
+        <p>Web Developer (Frontend Developer)</p>
+        <button>Highly skilled Front End Developer with expertise in HTML, CSS, and JavaScript. Proficient in building responsive and user-friendly web applications. Strong understanding of front-end frameworks, CSS preprocessors, and JavaScript libraries. Experienced in web performance optimization and accessibility guidelines.</button>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project">
+                <h3>Weather App</h3>
+                <p>A weather app built using HTML, CSS, and JavaScript.</p>
+                <a href="weather-app.html">https://github.com/AnJaLi21Patil/weather-app</a>
+            </div>
+            <div class="project">
+                <h3>Calculator</h3>
+                <p>A calculator built using HTML, CSS, and JavaScript.</p>
+                <a href="calculator.html">https://github.com/AnJaLi21Patil/simple-calculator</a>
+            </div>
+            <div class="project">
+                <h3>Tic Tac Toe Game</h3>
+                <p>A Tic Tac Toe game built using HTML, CSS, and JavaScript.</p>
+                <a href="tic-tac-toe.html">https://github.com/AnJaLi21Patil/Tic--Tac--Toe</a>
+            </div>
+<div class="project">
+                <h3>Tic Tac Toe Game</h3>
+                <p>A Tic Tac Toe game built using HTML, CSS, and JavaScript.</p>
+                <a href="Amazon-clone">https://github.com/AnJaLi21Patil/AmazonClone</a>
+            </div>
+
+        </div>
+    </section>
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <div class="certification-grid">
+            <div class="certification">
+                <h3>Great Learning Certification</h3>
+                <p>Certified in HTML, CSS, and JavaScript.</p>
+            </div>
+    
+
+
+  
+        </div>
+    </section>
+
+
+
+<section id="certifications">
+        <h2>Certifications</h2>
+        <div class="certification-grid">
+            <div class="certification">
+                <h3>Karmaveer Bhaurao Patil Collage,Urun Islmapure</h3>
+                <p>Object oriented Analysis and Design.</p>
+            </div>
+    
+
+
+  
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <div class="contact-grid">
+            <div class="contact">
+                <h3>Email</h3>
+                <p>anjalidpatil21@gmail.com</p>
+            </div>
+            <div class="contact">
+                <h3>LinkedIn</h3>
+                <p><a href="https://www.linkedin.com/in/anjali-patil-1234567890">View Profile</a></p>
+            </div>
+            <div class="contact">
+                <h3>GitHub</h3>
+                <p><a href="https://github.com/AnJaLi21Patil">View Profile</a></p>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
