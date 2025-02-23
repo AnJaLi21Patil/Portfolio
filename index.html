@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">#Anjali</a>
+        <!-- <i class="fa-solid fa-bars" id="menu-icons"></i> -->
+
+        <nav class="navbar">
+            <ul class="nav_list">
+                <a href="#home" class="active">Home</a>
+                <a href="#about" class="">About</a>
+                <a href="#skills" class="">Skills</a>
+                <a href="#projects" class="">Projects</a>
+            
+                <a href="#education" class="">Education</a>
+                <a href="#contact" class="">Contact</a>
+            </ul>
+
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi,I'm</h3>
+            <h1>Anjali Patil</h1>
+            <h3>And I'm a <span>Frontend Developer</span></h3>
+            <p>I'm a passionate Web Developer with a love for creating stunning and functional websites. I specialize in "frontend development, and responsive layouts.</p>
+            <div class="social">
+                <a href="https://www.linkedin.com/in/anjalipatill"><i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/AnJaLi21Patil"><i class="fa-brands fa-github"></i>
+                </a>
+               <a href="anjalidpatil21@gmail.com" ><i class="fa-brands fa-google"></i>
+                </a>
+            </div>
+            <a href="images/Anjali frontend devloper  21 (1).pdf" class="btn" >Download CV</a>
+
+        </div>
+        <div class="home-img">
+            <img src="img/portfolio.jpg" alt="" class="">
+        </div>
+    </section>
+    <section class="about" id="about">
+        
+        <div class="about-content">
+            <h2 class="heading">
+                ABOUT <span>Me </span>
+            </h2>
+            <h3>Frontend Developer</h3>
+            <p>I I am a passionate Frontend Developer with experience in 
+                creating dynamic and responsive web applications.
+                I have a strong understanding of HTML, CSS, and JavaScript,and
+                I am always eager to learn new technologies and improve my skills.
+                My goal is to build user-friendly and visually appealing websites that
+                provide an excellent user experience.</p>
+
+              <a href="#skills" class="btn">Read More</a>     
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <h2 class="heading">Skills</h2>
+        <p class="subheading">Here are some of my skills </p>
+    
+        <div class="skills">
+            <div class="skill">
+                <h3>Frontend</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <i class="fab fa-html5"></i> HTML
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-css3-alt"></i> CSS
+                    </div>
+                    <div class="skill-item">
+                    <i class="fab fa-js"></i> JavaScript
+                    </div>
+                    <div class="skill-item">
+                        <i class="fab fa-js"></i> Bootstrap
+                        </div>
+                </div>
+                </div>
+                <div class="skill">
+                    <h3>Tools</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <i class="fab fa-github"></i> GitHub
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i> Visual Studio
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i> VS Code
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-tools"></i> Eclipse
+                        </div>
+                        
+                    </div>
+                </div>
+                <section class="projects" id="projects">
+                    <h2 class="section-heading">Projects</h2>
+                    <p class="section-subheading">Here are some projects that I have done.</p>
+                <!-- Filter Buttons -->
+          
+          
+                <div class="filter-buttons">
+                
+                    <button class="filter-btn" data-filter="frontend">Frontend</button>
+                    <button class="filter-btn" data-filter="frontend">
+                        <a href="https://github.com/AnJaLi21Patil" style="color: inherit; text-decoration: none;">More projects</a>
+                    </button>
+                  
+                </div> 
+        
+                <!-- Project Cards -->
+        
+                <section class="project-container">
+        
+                    <!-- Project Card 1 -->
+        
+                    <div class="project-card" data-category="frontend">
+                    <img src="images/Porfolioimg.png" alt="portfolio" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">Portfolio</h3>
+                        <div class="project-tags">
+                        <span>HTML</span><span>Tellwind css</span><span>JS</span>
+                     
+                        </div>
+                        <p class="project-description">
+                        This portfolio web application showcases my skills and projects. It is built using HTML, CSS, and JavaScript to create a responsive and visually appealing design.
+                        
+                    <br><a href="" >link</a></p>
+                    </div>
+                    </div>
+        
+                    <!-- Project Card 2-->
+        
+                    <div class="project-card" data-category="frontend">
+                        <img src="images/aimg.png" alt="amazon clone" class="project-img">
+                        <div class="project-content">
+                            <h3 class="project-title">Amazon clone</h3>
+                            <div class="project-tags">
+                            <span>HTML</span><span>CSS</span><span>JS</span>
+                         
+                            </div>
+                            <p class="project-description">
+                            This Amazon clone web application was built using HTML, CSS, and JavaScript. The app replicates the core functionalities of the Amazon website. 
+                            </p>
+                            <br><a href="https://github.com/AnJaLi21Patil/AmazonClone"style="background: #38bdf8; font-size: 1rem; padding: 0.3rem 0.8rem; border-radius: 5px;">link</a></p>
+                        </div>
+                    </div>
+        
+                        <!-- Project Card 3 -->
+        
+                    <div class="project-card" data-category="frontend">
+                        <img src="images/calimg.png" alt="calculator" class="project-img">
+                        <div class="project-content">
+                            <h3 class="project-title">calculator</h3>
+                            <div class="project-tags">
+                            <span>HTML</span><span>css</span><span>JavaScript</span>
+                         
+                            </div>
+                            <p class="project-description">
+                            This calculator web application was built using HTML, CSS, and JavaScript. It provides basic arithmetic operations with a clean and intuitive user interface.
+                            </p>
+                            
+                            <br><a href="https://github.com/AnJaLi21Patil/calculator" style="background: #38bdf8; font-size: 1rem; padding: 0.3rem 0.8rem; border-radius: 5px;">link</a></p>
+
+                        </div>
+                        
+                    </div>
+                    <div class="project-card" data-category="frontend">
+                        <img src="images/timg.png" alt="tic-toc-toe" class="project-img">
+                        <div class="project-content">
+                            <h3 class="project-title">Tic-Toc-Toe</h3>
+                            <div class="project-tags">
+                            <span>HTML</span><span>CSS</span><span>JS</span>
+                           
+                            </div>
+                            <p class="project-description">
+                            This Tic-Tac-Toe web application was built using HTML, CSS, and JavaScript. It allows two players to play the classic game of Tic-Tac-Toe with a simple and interactive interface.
+                            </p>
+                            <br><a href="https://github.com/AnJaLi21Patil/Tic--Tac--Toe"style="background: #38bdf8; font-size: 1rem; padding: 0.3rem 0.8rem; border-radius: 5px;">link</a></p>
+                        </div>
+                    </div>
+        
+                    <!-- Project Card 5 -->
+        
+                    <div class="project-card" data-category="frontend">
+                        <img src="images/cimg.PNG" alt="analog-clock" class="project-img">
+                        <div class="project-content">
+                            <h3 class="project-title">Analog-clock</h3>
+                            <div class="project-tags">
+                            <span>HTML</span><span>CSS</span><span>JS</span>
+                         
+                            </div>
+                            <p class="project-description">
+                                Using javascript,i was able toupadate the clock ,creating a smooth and seamless user experience.
+                            </p>
+                            <br><a href="https://github.com/AnJaLi21Patil/Analog--Clock"style="background: #38bdf8; font-size: 1rem; padding: 0.3rem 0.8rem; border-radius: 5px;">link</a></p>
+                        </div>
+                    </div>
+                    <div class="project-card" data-category="frontend">
+                        <img src="images/limg.png" alt="landing page" class="project-img">
+                        <div class="project-content">
+                            <h3 class="project-title">landing page</h3>
+                            <div class="project-tags">
+                            <span>HTML</span><span>CSS</span>
+                         
+                            </div>
+                            <p class="project-description">
+                            This Pizza shop web application was built on the React.js. The app offers a comprehensive  solution.
+                            </p>
+                            <br><a href="https://github.com/AnJaLi21Patil/Landing-page"style="background: #38bdf8; font-size: 1rem; padding: 0.3rem 0.8rem; border-radius: 5px;">link</a></p>
+                        </div>
+                    </div>
+                </section>
+        
+                <section class="education" id="education">
+                    <h2 class="section-heading">Education</h2>
+                    <p class="section-subheading">Here are some education information that I have done.</p>
+                <!-- Filter Buttons -->
+          
+          
+                
+                <div class="education-card" data-category="12th">
+                    <img src="images/gimg.png" alt="12th" class="gimg">
+                    <div class="education-content">
+                        <h3 class="education-title">Arts,Commerce and Science Junior college ,Gotkhindi</h3>
+                        <div class="education-tags">
+                        <span>2019-2020</span>
+                     
+                        </div>
+                        <p class="education-description">
+                         I successfully completed my HSC Ordinary Level examinations. 
+                            This period provided me with a strong academic foundation and instilled essential values such as discipline and perseverance.
+                        </p>
+                        <br>
+                        <span a href="">68.92%</span>
+                   
+                    </div>
+                    </div>
+        
+                    <!-- Project Card 2-->
+        
+                    <div class="education-card" data-category="education">
+                        <img src="images/kkimg.png" alt="bsc" class="kimg">
+                        <div class="education-content">
+                            <h3 class="education">Karmveer Bhauroov Patil clg,urun islampur</h3>
+                            <div class="education-tags">
+                            <span>2020-2023</span>
+                         
+                            </div>
+                            <p class="project-description">
+                            I completed my Bachelor of Science in Computer Science, where I gained a solid foundation in computer science principles and practical skills. My coursework included programming,  databases, and web development. 
+                            This education has equipped me with the knowledge and skills necessary to excel in the field of software development.
+                            </p>
+                            <br>
+                            <span a href="">8.3 CGPA</span></p>
+                        </div>
+                    </div>
+        
+                        <!-- Project Card 3 -->
+        
+                    <div class="education-card" data-category="education">
+                        <img src="images/simg.png" alt="Msc" class="simg.png">
+                        <div class="education-content">
+                            <h3 class="education-title">Shivaji University Kolhapur</h3>
+                            <div class="education-tags">
+                            <span>2023-2024</span>
+                         
+                            </div>
+                            <p class="education"> 
+                                I am currently pursuing my Master of Science in Computer Science.
+                                 During my first year, I have gained advanced knowledge in various areas such database,programmimg language software engineering. 
+                                 This program has further enhanced my problem-solving skills and deepened my understanding of computer science concepts.
+                            </p>
+                            <br>
+                            <span a href="">8.9 CGPA(MSc cs 1)</span></p>
+                            
+                            
+                        </div>
+                        
+                    </div>
+                </section>
+        
+                <div class="get-in-touch" id="contact">
+           
+                    <form action="/submit_form" method="post">
+                        <h1>Get in Touch</h1>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="2" required > </textarea>
+                        
+                        <label for="submit"></label>
+                        
+                        <a href="mailto:anjalipatill@gmail.com" class="btn">Email Me</a>
+                    </form>
+                </div>
+            </div>
+                <footer>
+                    <p>&copy; 2025 Anjali Patil . All rights reserved.</p>
+                </footer> 
+   
+        </body>
+</html>
